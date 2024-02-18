@@ -8,7 +8,7 @@ const Page = async () => {
   const revenue = await fetchRevenue();
   const latestInvoices = await fetchLatestInvoices();
   const cardData = await fetchCardData();
-  console.log('🚀 ~ file: page.tsx:11 ~ Page ~ cardData:', cardData);
+  
   const {
     totalPaidInvoices,
     totalPendingInvoices,
